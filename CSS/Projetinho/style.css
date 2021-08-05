@@ -61,7 +61,7 @@ a {
 
 .name h1 {
    font-size: 9rem;
-   padding-top: 4.5rem;
+   padding-top: 2.5rem;
 }
 
 .name h3 {
@@ -101,24 +101,66 @@ a {
 }
 
 .form {
-   width: 100%;
-   margin: 0 auto;
+   margin: 2rem auto;
 }
 
-.form p {
-   width: 80%;
-   margin: 0 auto;
-   font-size: 1rem;
-}
-
-.formulario {
-   display: flex;
+.form div p {
+   font-size: 1.7rem;
 }
 
 .form input {
-   width: 40%;
+   max-width: 30rem;
+   width: 100%;
+   padding: 1rem;
+   border-radius: 0.7rem 0 0 0.7rem;
+}
+
+.form input::placeholder {
+   font-weight: bold;
+   text-align: center;
 }
 
 .form button {
-   width: 10%;
+   padding: 1rem;
+   background-color:#c2ad39;
+   color: #fff;
+   font-weight: bold;
+   margin-left: -5px;
+   border-radius: 0 0.7rem 0.7rem 0;
+   cursor: pointer;
+}
+
+@media only screen and (max-width: 768px) {
+   .name h1 {
+      font-size: 7rem;
+      line-height: 8rem;
+   }
+
+   .name h3 {
+      font-size: 3rem;
+      line-height: 8rem;
+   }
+
+   .about p {
+      font-size: 1.5rem;
+   }
+}
+
+
+@media only screen and (max-width: 640px) {
+   header ul li a {
+      font-size: 1.5rem
+   }
+
+   .name h1 {
+      padding-top: 0;
+   }
+
+   .form {
+      margin: 0;
+   }
+
+   header {
+      flex-direction: column;
+   }
 }
