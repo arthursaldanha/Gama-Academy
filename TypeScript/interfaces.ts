@@ -1,7 +1,7 @@
 interface Usuario {
    nome: string;
    email: string;
-   adresse?: string;
+   endereco?: string;
 }
 
 function getUser(): Usuario {

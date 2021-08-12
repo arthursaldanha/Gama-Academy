@@ -10,5 +10,15 @@ class Data {
    }
 }
 
+/* 
+class Data {
+   constructor(public dia: number, public mes: number, public ano: number) {
+
+   }
+}
+
+Funciona da mesma forma que o formato anterior
+*/
+
 const data = new Data(15, 7, 2002);
 const data2 = new Data(5, 1)
