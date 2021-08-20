@@ -1,0 +1,20 @@
+{
+  "name": "nodets",
+  "version": "1.0.0",
+  "description": "Projeto TypeScript com Node",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "TypeScript",
+    "Node"
+  ],
+  "author": "Arthur Saldanha",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^16.6.2",
+    "query-string": "^7.0.1",
+    "typescript": "^4.3.5"
+  }
+}
